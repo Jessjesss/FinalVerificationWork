@@ -1,6 +1,7 @@
 ﻿string[] str = new string[4] {"hey", "2984", "world", "12"};
 string[] str2 = new string[str.Length]; 
-
+Counter(str, str2);
+PrintArray(str2);
 
 void Counter(string[] str, string[] str2)
 {
