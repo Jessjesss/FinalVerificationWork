@@ -14,3 +14,11 @@ void Counter(string[] str, string[] str2)
         }
     }
 }
+
+void PrintArray(string[] str2)
+{
+    for (int i = 0; i < str2.Length; i++)
+    {
+        Console.Write($"{str2[i]} ");
+    }
+}
